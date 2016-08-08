@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Book Your Holidays!! - "Home Page"</title>
+
+	<meta name="description" content="the landing page for an online holiday booking company">
+	<meta name="author" content="Cameron Bailey">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="site-header">
+			<div class="navbar-header">
+				<div>
+					<a href="index.html" class="navbar-brand logo-header"><img src="img/logo.png" alt="logo"></a>
+				</div>
+
+				<div class="pull-right">
+					<div class="dropdown pull-right">
+						<button type="button" data-toggle="dropdown" class="btn btn-info dropdown-toggle" id="account" aria-haspopup="true" aria-expanded="true">
+							Account <span class="caret"></span>
+						</button>
+							
+						<ul class="dropdown-menu" id="dropdown" aria-labelledby="account">
+							<li>Sign in to receive account specific benefits</li>
+							<li><button type="button" class="btn btn-info pull-right" id="btn-signin" aria-label="sign in">Sign In</button></li>
+						</ul>
+					
+						<button type="button" class="btn btn-info" id="btn-basket" aria-label="shopping basket">Basket
+								<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+					</div><!-- dropdown pull-right -->
+				</div><!-- pull-right -->
+			</div><!-- navbar-header -->
+		</header>
+	</div><!-- container -->
+
+	<nav class="navbar navbar-default navigation" id="nav" role="navigation">
+
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsemenu">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="#">Last Minute</a></li>
+				<li><a href="#">Beach Holidays</a></li>
+				<li><a href="#">City Breaks</a></li>
+				<li><a href="#">Packages</a></li>
+			</ul>
+		</div><!-- collapse navbar-collapse -->
+	</nav>
+
+	<div class="container">
+		<div class="carousel slide" id="carousel-nav">
+
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#carousel-nav" data-slide-to="0"></li>
+				<li data-target="#carousel-nav" data-slide-to="1"></li>
+				<li data-target="#carousel-nav" data-slide-to="2"></li>
+			</ol><!-- carousel-indicators -->
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/carousel_banner_1.jpg" alt="carousel image">
+					<div class="carousel-caption">
+						<h3>Massive Weekly Deals</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore recusandae deleniti libero corporis, vero rerum? Fuga necessitatibus officia voluptatibus?</p>
+					</div>
+				</div><!-- item -->
+				<div class="item">
+					<img src="img/banner_beach_2.png" alt="carousel image">
+					<div class="carousel-caption">
+						<h3>Massive Weekly Deals</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore recusandae deleniti libero corporis, vero rerum? Fuga necessitatibus officia voluptatibus?</p>
+					</div>
+				</div><!-- item -->
+				<div class="item">
+					<img src="img/carousel_banner_3.jpg" alt="carousel image">
+					<div class="carousel-caption">
+						<h3>Massive Weekly Deals</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore recusandae deleniti libero corporis, vero rerum? Fuga necessitatibus officia voluptatibus?</p>
+					</div>
+				</div><!-- item -->
+			</div><!-- carousel-inner -->
+
+			<a class="left carousel-control" href="#carousel-nav" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-nav" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div><!-- carousel -->
+
+		<div class="rating">
+			<p>Rated by our customers
+				<span class="glyphicon glyphicon-star star-colour"></span>
+		        <span class="glyphicon glyphicon-star star-colour"></span>
+		        <span class="glyphicon glyphicon-star star-colour"></span>
+		        <span class="glyphicon glyphicon-star star-colour"></span>
+		        <span class="glyphicon glyphicon-star star-colour opacity"></span>
+			</p>
+		</div><!-- rating -->
+
+		<section class="extra-information">
+			<div class="row extra-info">			
+				<div class="col-sm-2">
+					<h2 class="section-title">Travel Options</h2>
+				</div>	
+				<div class="col-sm-offset-1 col-sm-9">
+					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vitae molestiae, pariatur laudantium tempore facilis distinctio debitis, cumque. Et quaerat, aliquid. Facere, magnam velit quidem quas atque ab. Alias, ad. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestias, at nisi tempora omnis deserunt? Labore, id, ducimus cum, modi nisi alias est ea hic laborum consequatur commodi natus ullam.</p>
+				</div>
+			</div><!-- row extra-info -->
+			<div class="row extra-info">			
+				<div class="col-sm-2">
+					<h2 class="section-title">Holiday Activities</h2>
+				</div>	
+				<div class="col-sm-offset-1 col-sm-9">
+					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vitae molestiae, pariatur laudantium tempore facilis distinctio debitis, cumque. Et quaerat, aliquid. Facere, magnam velit quidem quas atque ab. Alias, ad. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestias, at nisi tempora omnis deserunt? Labore, id, ducimus cum, modi nisi alias est ea hic laborum consequatur commodi natus ullam.</p>
+				</div>
+			</div><!-- row extra-info -->
+			<div class="row extra-info">			
+				<div class="col-sm-2">
+					<h2 class="section-title">Cruise Breaks</h2>
+				</div>	
+				<div class="col-sm-offset-1 col-sm-9">
+					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vitae molestiae, pariatur laudantium tempore facilis distinctio debitis, cumque. Et quaerat, aliquid. Facere, magnam velit quidem quas atque ab. Alias, ad. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestias, at nisi tempora omnis deserunt? Labore, id, ducimus cum, modi nisi alias est ea hic laborum consequatur commodi natus ullam.</p>
+				</div>
+			</div><!-- row extra-info -->
+			<div class="row extra-info">			
+				<div class="col-sm-2">
+					<h2 class="section-title">About Us</h2>
+				</div>	
+				<div class="col-sm-offset-1 col-sm-9">
+					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vitae molestiae, pariatur laudantium tempore facilis distinctio debitis, cumque. Et quaerat, aliquid. Facere, magnam velit quidem quas atque ab. Alias, ad. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestias, at nisi tempora omnis deserunt? Labore, id, ducimus cum, modi nisi alias est ea hic laborum consequatur commodi natus ullam.</p>
+				</div>
+			</div><!-- row extra-info -->
+			<div class="row extra-info">			
+				<div class="col-sm-2">
+					<h2 class="section-title">Partners</h2>
+				</div>	
+				<div class="col-sm-offset-1 col-sm-9">
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#">www.ourhotels.com </a></li>
+						<li class="list-inline-item"><a href="#">www.everywherehotels.com </a></li>
+						<li class="list-inline-item"><a href="#">www.beachvillas.com </a></li>
+						<li class="list-inline-item"><a href="#">www.citysights.com </a></li>
+						<li class="list-inline-item"><a href="#">www.holidaysholidaysholidays.co.uk</a></li>
+					</ul>
+				</div>
+			</div><!-- row extra-info -->
+		</section><!-- extra-information -->
+
+		<section class="weekly-deals">
+			<h3 id="weekly-title">This Weeks Top Deals!</h3>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_1.jpg" alt="weekly deals image"></a>
+
+						<div class="caption">							
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_4.jpg" alt="weekly deals image"></a>
+						
+						<div class="caption">							
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_1.jpg" alt="weekly deals image"></a>
+						
+						<div class="caption">							
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_4.jpg" alt="weekly deals image"></a>
+						
+						<div class="caption">							
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+			</div><!-- row -->
+			<div class="row">
+				<div class="col-sm-3 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_1.jpg" alt="weekly deals image"></a>
+						
+						<div class="caption">						
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_4.jpg" alt="weekly deals image"></a>
+						
+						<div class="caption">							
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_1.jpg" alt="weekly deals image"></a>
+						
+						<div class="caption">						
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<div class="thumbnail">
+						<a href="#"><img src="img/weekly_deals_4.jpg" alt="weekly deals image"></a>
+						
+						<div class="caption">
+							<h4 class="underline"><a href="#">Lipsum</a></h4>
+
+							<p>Lorem ipsum dolor sit amet..</p>
+						</div><!-- caption -->
+					</div><!-- thumbnail -->
+				</div>
+			</div><!-- row -->
+		</section><!-- weekly-deals -->
+
+		<section class="terms-and-conditions">
+			<h5><small>Terms &amp; Conditions</small></h5>
+			<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus soluta, consequatur porro labore itaque consectetur recusandae sint officia fugiat eos a, similique odio non aspernatur, praesentium tenetur sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quasi commodi similique illo error consequatur delectus eligendi officiis, tempore aspernatur voluptatibus debitis dolore, nam placeat dolorum incidunt. Laboriosam, corporis, magni!</small></p>
+			<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus soluta, consequatur porro labore itaque consectetur recusandae sint officia fugiat eos a, similique odio non aspernatur, praesentium tenetur sequi dolores expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ea, nesciunt neque dolores voluptatem cupiditate illo vero deserunt aperiam, hic aut ut. Vel pariatur nobis vitae cum repudiandae fugit velit.</small></p>
+			<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus soluta, consequatur porro labore itaque consectetur recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis veniam provident doloribus ad nemo laudantium corporis quia, quasi minima perferendis similique optio, quae esse molestiae numquam. Eum debitis reiciendis aliquam!</small></p>
+			<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus soluta, consequatur porro labore itaque consectetur recusandae sint officia fugiat eos a, similique odio non aspernatur, praesentium tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptates tempore, recusandae eveniet blanditiis officiis nihil vel omnis perspiciatis reprehenderit, in aut autem iure laborum obcaecati ea. Nam, sint, eius? in aut autem iure laborum obcaecati ea?</small></p>
+		</section><!-- terms and conditions -->
+
+		<footer>
+			<div class="awards">
+				<img src="img/award.jpg" alt="company award">
+				<img src="img/award.jpg" alt="company award">
+				<img src="img/award.jpg" alt="company award">
+			</div><!-- awards -->
+
+			<p id="footer-copyright">
+					&copy; 2016 <a href="http://cameronsbailey.co.uk/" target="_blank">Cameron Bailey</a>, All rights reserved.
+			</p>
+		</footer>
+	</div><!-- container -->
+
+
+	<script src="js/jquery-3.0.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<script src="js/script.js"></script>
+</body>
+</html>

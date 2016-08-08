@@ -1,0 +1,215 @@
+body{
+	font-family: "Roboto Slab", Serif;
+	border-bottom: 8px solid #e68a00;
+	border-top: 5px solid #e68a00;
+}
+
+/** Site Navigation */
+
+div .site-header{;
+	height: 60px;
+}
+
+.logo-header{
+	padding: 0px;
+}
+
+.navbar-default{
+}
+.navbar-default .navbar-nav>.active>a:hover{
+	color: #e68a00;
+}
+
+
+
+
+.navbar-header{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.navbar .navbar-nav{
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+}
+
+.navbar{
+	text-align: center;
+	font-weight: 700;
+	border-bottom: none;
+}
+
+.navigation{
+	margin-bottom:  2px;
+}
+
+#dropdown{
+	padding: 10px;
+	text-align: right;
+}
+
+#btn-signin{
+	margin-top: 10px;
+}
+
+#account, #btn-signin, #btn-basket{
+	background-color: #e68a00; 
+	text-transform: uppercase;
+}
+
+#account, #btn-basket{
+    background: linear-gradient(to right, #e68a00 50%, #cc5200 50%);
+    background-size: 200% 100%;
+    background-position:left bottom;
+    transition:all 1.5s ease;
+}
+#account:hover, #btn-basket:hover {
+    background-position:right bottom;
+}
+
+.icon-bar{
+	background-color: #e68a00 !important;
+}
+
+.active{
+	background-color: #e68a00 !important;
+}
+
+
+/** Carousel Section **/
+
+.carousel-caption h3, .carousel-caption p{
+	color: #e68a00;
+	line-height: 2em;
+}
+
+.carousel-caption h3{
+	text-transform: uppercase;;
+}
+
+.carousel-caption{
+	background: rgba(0,0,0,.5);
+	border-radius: 25px;
+	padding-top: 0px;
+
+}
+
+
+/** Customer Rating Section **/
+
+.rating{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.star-colour{
+	color: #e68a00;
+}
+
+.opacity{
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+
+/** Extra Information Section **/
+
+.extra-information{
+	margin-top: 25px;
+}
+
+.extra-info{
+	margin-top: 15px;
+}
+
+.section-title{
+	margin-top: 0px;
+	font-size: 150%;
+}
+
+
+/** Weekly Deals Section **/
+
+#weekly-title{
+	margin-top: 30px;
+	color: #e68a00;
+}
+
+.caption h4{
+	text-decoration: none;
+}
+
+.caption h4 a{
+	color: black;
+}
+
+.caption p{
+	font-family: "Open Sans", Serif;
+	font-weight: 400;
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+
+
+/** Terms & Conditions Section **/
+
+.terms-and-conditions{
+	font-family: "Open Sans", Serif;
+	font-weight: 300;
+}
+
+
+/** Footer Section **/
+
+footer{
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 20px;
+}
+
+.underline{
+	text-decoration: underline;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+/* Media Queries */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.carousel-caption p{
+		display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	.navbar{
+		text-align: left;
+	}
+
+	.rating p{
+		font-size: 0.8em;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px){
+	.carousel-caption{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.carousel-caption h3{
+		font-size: 1.2em
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.rating p{
+		font-size: 0.6em;
+	}
+}
